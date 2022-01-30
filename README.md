@@ -33,3 +33,12 @@ Bot prefix !b
 23.咒術回戰
 24.EVA
 25.關於我轉生成史萊姆的那檔事
+
+## 運行
+
+如果還未下載pipenv
+`pip install pipenv`
+
+接著
+`pipenv shell`
+`python main.py`
