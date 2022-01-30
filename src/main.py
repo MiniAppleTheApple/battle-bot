@@ -19,8 +19,3 @@ async def select(ctx: commands.Context, character_name: str):
 	
 	if character_name in contains_characters:
 		player.select(find_character(player.characters, selected_character))
-
-
-
-
-	

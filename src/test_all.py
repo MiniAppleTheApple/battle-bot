@@ -4,7 +4,8 @@ from player import PlayerCache
 def test_player():
 	player = PlayerDefault().build()
 	player.set_coin(30)
-	assert player.coin == 30 
+	assert player.coin == 30
+	player.set 
 
 
 def test_player_cache():

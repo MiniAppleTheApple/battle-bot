@@ -1,4 +1,4 @@
-def find_character(characters: Character, name: str):
+def find_character(characters: list[Character], name: str):
 	result = filter(
 		lambda c: c.name() == name,
 		player.characters)	
